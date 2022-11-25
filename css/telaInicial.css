@@ -31,7 +31,7 @@
 }
 
 .campoPesquisa{
-    padding: 10px;                   /*aumentou a largura do campo pesquisar*/
+    padding: 15px 12px;                   /*aumentou a largura do campo pesquisar*/
     width: 100%;
     max-width: 750px;
     border-radius: 10px;
@@ -52,35 +52,54 @@
 }
 
 .botaoPesquisa:hover{                                 /*quando passa o mouse por cima, a borda aparece*/
-    border: 1px solid gray;
+    border: 1px solid #eaeaea;
 }
 
 .textolink{
     font-size: 16px;
     font-family: 'roboto', sans-serif;
+    margin-bottom: 23rem;
 }
 
 .rodape1{
     background: #f2f2f2;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
     color: gray;
     font-family: 'roboto', sans-serif;
-    font-size: 15px;
-    margin-top: 9px;
+    font-size: 13px;
+    margin-top: 10px;
 }
 
 .rodape2{
     background: #f2f2f2;
-    border-top: 1px solid grey;
+    border-top: 2px solid #eaeaea;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
     color: gray;
     font-family: 'roboto', sans-serif;
-    font-size: 15px;
-    margin-top: 9px;
+    font-size: 13px;
+    height: 20px;
+}
+
+.rodape-left{
+    float: left;
+}
+
+.rodape-right{
+    float: right;
+}
+
+.link-rodape{
+    text-decoration: none;
+    color: gray;
+    margin-right: 20px;
+}
+
+.link-rodape:hover{
+    text-decoration: underline;
 }
